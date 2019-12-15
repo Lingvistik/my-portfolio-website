@@ -68,12 +68,24 @@ h4
 
 #aboutme {
     background-color: rgba(117, 113, 113, 0.5);
-    
+    padding: 10px; 
+    border-radius: 7%;
+}
+
+.emil-info {
+    padding: 20px;
+}
+
+
+.container h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #experience {
     background-color: rgba(124, 108, 108, 0.5);
-    
+    padding: 10px;
+    border-radius: 7%;
 }
 
 #experience li,
@@ -187,10 +199,10 @@ footer a:visited {
     font-family: "Comfortaa", sans-serif;
 }
 
-#contact-page {
+#contact-page-footer {
     background-color: transparent;
     height: 50px;
-    margin-top: 3.8em;
+    margin-top: 2em;
 }
 
 
