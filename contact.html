@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans&display=swap');
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/8ec1dbc2f2.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Emil Bacic | portfolio</title>
+    
+</head>
+<body>
+
+    <!----------------Navbar--------------------->
+     <nav class="navbar navbar-dark">
+         <button class="navbar-toggler" id="button-style" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+     </nav>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div id="dropdown" class="p-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+               </ul>
+            </div>
+       </div>
+    </div>
+    
+    <!---------------------Main Content-------------->
+    <section id="contact">
+       <div class="container">
+         <div class="jumbotron bg-transparent"> 
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Preference</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Music</option>
+                    <option>Coding</option>
+                    <option>Both</option>
+                    </select>
+                    <div id="uploadtxt" class="form-group">
+                        <label  for="exampleFormControlFile1">Upload Your Idea or Project</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                     </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message me</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-danger">Submit</button>
+            </form>
+        </div> 
+    </div>
+    </section>
+
+<!---------------------Footer-------------->
+    <footer>
+     <div class="footer-icons">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp;
+        <a href="https://soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a>&nbsp;
+        <a href="contact.html"><i class="fas fa-envelope"></i></a>
+            <div class="backtotop">
+                <a href="#" id="back">Back to top</a>
+            </div>
+      </div>
+    </footer>
+
+</body>
+</html>

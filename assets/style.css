@@ -1,0 +1,182 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 35px;
+    color: #e7e0e0;
+    background: url("https://jooinn.com/images1280_/headphone-2.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+h1,
+h4
+ {
+    text-align: center;
+    font-family: "Comfortaa", cursive;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+/*Navbar----------------Navbar--------------------Navbar*/
+
+.navbar {
+    height: 100%;
+    
+}
+
+#button-style {
+    background-color: rgb(54, 47, 47);
+    color: rgb(19, 12, 10);
+    outline: 0;
+}
+
+.nav-item a {
+   color: #fafafa;
+   font-size: 20px;
+}
+
+#dropdown {
+    background-color: rgba(107, 101, 101, 0.363);
+}
+
+/*Content----------------Content--------------------Content*/
+
+
+#contact {
+    font-family: "Comfortaa", sans-serif;
+}
+
+#about-content {
+    font-family: "Comfortaa", sans-serif;
+    height: 100%;
+}
+
+.jumbotron {
+    background-color: rgba(117, 113, 113, 0.5);
+    font-size: 25px;
+}
+
+.jumbotron p {
+    font-size: 15px;
+}
+
+#quote {
+    font-size: 20px;
+}
+
+.card-body p,
+.card-body a {
+    font-size: 20px;
+    color: #dfdfdf;
+}
+
+#aboutme {
+    background-color: rgba(117, 113, 113, 0.5);
+    
+}
+
+#experience {
+    background-color: rgba(124, 108, 108, 0.5);
+    
+}
+
+#experience li,
+#aboutme p {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 2;
+    vertical-align: middle;
+}
+
+/*Footer----------------Footer--------------------Footer*/
+
+footer {
+    text-align: center;
+    margin-top: 55px;
+    background-color: rgba(34, 29, 27, 0.6);
+}
+
+
+.backtotop a {
+    font-size: 20px;
+    color: #918a89;
+}
+
+.backtotop {
+    margin: 0;
+    padding: 0;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #7c7b7a;
+}
+
+footer a:visited {
+    color: #838383;
+}
+
+.footer-icons i {
+    color: #dfdfdf;
+}
+
+/* ----------------------------------------Images */
+
+#cover-pic img {
+   border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.wrap-img {
+     display: inline-block;
+     border: 5px solid rgba(255, 255, 255, 0.733);
+     border-radius: 50%;
+     width: 170px;
+     height: 170px;
+     padding: 5px;
+}
+
+.wrap-img2 {
+     display: inline-block;
+     border: 5px solid rgba(255, 255, 255, 0.733);
+     border-radius: 50%;
+     width: 320px;
+     height: 320px;
+     padding: 5px;
+}
+
+.wrap-img a:hover {
+    shadow: 170px #000000;
+}
+
+#game-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#elec-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#rec-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#world-img img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+#uploadtxt {
+    font-size: 15px;
+    margin-top: 5px;
+}
