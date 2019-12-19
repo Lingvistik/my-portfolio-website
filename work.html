@@ -1,178 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-   <style>
-        @import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans&display=swap');
-    </style>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans&display=swap');
+	</style>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 
-    <script src="https://kit.fontawesome.com/8ec1dbc2f2.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/8ec1dbc2f2.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Emil Bacic | portfolio</title>
-    
+	<link rel="stylesheet" href="assets/style.css">
+	<title>Emil Bacic | portfolio</title>
+
 </head>
+
 <body>
 
-    <!----------------Navbar--------------------->
-     <nav class="navbar navbar-dark">
-         <button class="navbar-toggler" id="button-style" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+	<!----------------Navbar--------------------->
+	<nav class="navbar navbar-dark">
+		<span class="logo"><a href="index.html"><strong>emw</strong><span class="logo-sub">production</span></a></span>
+		<button class="navbar-toggler" id="button-style" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
          </button>
-     </nav>
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div id="dropdown" class="p-3">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.hmtl">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="work.html">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-               </ul>
-            </div>
-       </div>
-    </div>
-    
-    <!---------------------Main Content-------------->
-    <section id="content">
+	</nav>
+	<div class="pos-f-t">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div id="dropdown" class="p-3">
+				<ul class="nav flex-column dropdown-links">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home &nbsp; <i class="fas fa-home fa-xs"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About Me &nbsp; <i class="fas fa-user fa-xs"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="work.html">Work &nbsp; <i class="fas fa-suitcase fa-xs"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact &nbsp; <i class="fas fa-envelope fa-xs"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-        <div class="container text-center">    
-             <div class="row align-items-center pb-5">
-                    <div class="col-md-8">
-                         <h5>Video Games Composition</h5>
-                         <p>Epic soundtracks for every genre</p>
-                     </div>
-                 <div class="col-md-4" id="game-img" data-toggle="collapse" data-target="#navbarToggleplayer1" aria-controls="navbarToggleplayer1" aria-expanded="false" aria-label="Toggle player">
-                        <div class="wrap-img">
-                             <a href="#"><img src="assets/images/video-game-music.jpg"></a>
-                        </div>
-                     <div class="pos-f-t">
-                            <div class="collapse" id="navbarToggleplayer1">
-                                <div id="dropdown" class="p-3">
-                                    <ul class="nav flex-column">
-                                        <li class="nav-item">
-                                           <audio controls>
-                                                <source src="assets/sounds/gamemusic1.mp3" type="audio/mpeg">Battle prelude - Emil Bacic
-                                           </audio>
-                                           <h6><strong>Battle Prelude</strong></h6>
-                                           <h6>Composer<strong>: Emil Bacic</strong></h6>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                     </div>
-                       
-                 </div>
+	<!---------------------Main Content-------------->
+	<section id="work">
+		<h2>PORTFOLIO &nbsp; <i class="fas fa-folder-open"></i></h2>
+		<div class="container text-center">
+			<div class="row align-items-center pb-5" id="music-examples">
+				<div class="col-md-8">
+					<h5>Video Games Composition</h5>
+					<p>Epic soundtracks for every genre</p>
+				</div>
+				<div class="col-md-4" id="game-img" data-toggle="collapse" data-target="#navbarToggleplayer1"
+					aria-controls="navbarToggleplayer1" aria-expanded="false" aria-label="Toggle player">
+					<div class="wrap-img">
+						<a href="#"><img src="assets/images/video-game-music.jpg"></a>
+							<a href="#" class="img-text">Click for sound</a>
+					</div>
+					<div class="pos-f-t">
+						<div class="collapse" id="navbarToggleplayer1">
+							<div id="dropdown" class="p-3">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<audio controls>
+											<source src="assets/sounds/gamemusic1.mp3" type="audio/mpeg">Battle prelude
+											- Emil Bacic
+										</audio>
+										<h6><strong>Battle Prelude</strong></h6>
+										<h6>Composer<strong>: Emil Bacic</strong></h6>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 
-                  <div class="w-100 pb-5"></div>
-                      
-                      <div class="col-md-8">
-                           <h5>Recordings</h5>
-                            <p>Original songs and covers</p>
-                      </div>
-                      <div class="col-md-4" id="elec-img" data-toggle="collapse" data-target="#navbarToggleplayer2" aria-controls="navbarToggleplayer2" aria-expanded="false" aria-label="Toggle player">
-                        <div class="wrap-img" id="pic2">
-                            <a href="#pic2"><img src="assets/images/recording.jpg"></a>
-                          </div>
-                            <div class="pos-f-t">
-                                    <div class="collapse" id="navbarToggleplayer2">
-                                        <div id="dropdown" class="p-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                <audio controls>
-                                                        <source src="assets/sounds/yesterday.mp3" type="audio/mpeg">Yesterday (acoustic cover) - Emil Bacic
-                                                </audio>
-                                                <h6><strong>Yesterday</strong> (Acoustic cover by Emil Bacic)</h6>
-                                                <h6><strong>Composer</strong>: Paul McCartney</h6>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                            </div>        
-                    </div>
+				</div>
 
-                 <div class="w-100 pb-5"></div>
+				<div class="w-100 pb-5"></div>
 
-                     <div class="col-md-8">
-                          <h5>Electronic Music</h5>
-                          <p>Fusion of all genres</p>
-                     </div>
-                       <div class="col-md-4" id="elec-img" data-toggle="collapse" data-target="#navbarToggleplayer3" aria-controls="navbarToggleplayer3" aria-expanded="false" aria-label="Toggle player">
-                         <div class="wrap-img" id="pic3">
-                           <a href="#pic3"><img src="assets/images/elec-music.jpg"></a>
-                          </div>
-                            <div class="pos-f-t">
-                                    <div class="collapse" id="navbarToggleplayer3">
-                                        <div id="dropdown" class="p-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                <audio controls>
-                                                        <source src="assets/sounds/Other-Life.mp3" type="audio/mpeg">Other Life - Emil Bacic
-                                                </audio>
-                                                <h6><strong>Other Life</strong></h6>
-                                                <h6><strong>Composer</strong>: Emil Bacic</h6>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                            </div>        
-                    </div>
+				<div class="col-md-8">
+					<h5>Recordings</h5>
+					<p>Original songs and covers</p>
+				</div>
+				<div class="col-md-4" id="elec-img" data-toggle="collapse" data-target="#navbarToggleplayer2"
+					aria-controls="navbarToggleplayer2" aria-expanded="false" aria-label="Toggle player">
+					<div class="wrap-img" id="pic2">
+						<a href="#pic2"><img src="assets/images/recording.jpg"></a>
+							<a href="#pic2" class="img-text">Click for sound</a>
+					</div>
+					<div class="pos-f-t">
+						<div class="collapse" id="navbarToggleplayer2">
+							<div id="dropdown" class="p-3">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<audio controls>
+											<source src="assets/sounds/yesterday.mp3" type="audio/mpeg">Yesterday
+											(acoustic cover) - Emil Bacic
+										</audio>
+										<h6><strong>Yesterday</strong> (Acoustic cover by Emil Bacic)</h6>
+										<h6><strong>Composer</strong>: Paul McCartney</h6>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                      <div class="w-100 pb-5"></div>
+				<div class="w-100 pb-5"></div>
 
-                       <div class="col-md-8">
-                          <h5>Music Without Borders</h5>
-                          <p>Worldwide music colaboration</p>
-                     </div>
-                    <div class="col-md-4" id="world-img" data-toggle="collapse" data-target="#navbarToggleplayer4" aria-controls="navbarToggleplayer4" aria-expanded="false" aria-label="Toggle player">
-                         <div class="wrap-img" id="pic4">
-                           <a href="#world-img"><img src="assets/images/world-music.jpg"></a>
-                          </div>
-                            <div class="pos-f-t">
-                                    <div class="collapse" id="navbarToggleplayer4">
-                                        <div id="dropdown" class="p-3">
-                                            <ul class="nav flex-column">
-                                                <li class="nav-item">
-                                                   <iframe width="300" height="250" src="https://www.youtube.com/embed/4xjPODksI08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                   <h6><strong>One Love</strong></h6>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                            </div>        
-                    </div>
-             </div>
-         </div>
-     </section>  
+				<div class="col-md-8">
+					<h5>Electronic Music</h5>
+					<p>Fusion of various genres</p>
+				</div>
+				<div class="col-md-4" id="elec-img" data-toggle="collapse" data-target="#navbarToggleplayer3"
+					aria-controls="navbarToggleplayer3" aria-expanded="false" aria-label="Toggle player">
+					<div class="wrap-img" id="pic3">
+						<a href="#pic3"><img src="assets/images/elec-music.jpg"></a>
+							<a href="#pic3" class="img-text">Click for sound</a>
+					</div>
+					<div class="pos-f-t">
+						<div class="collapse" id="navbarToggleplayer3">
+							<div id="dropdown" class="p-3">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<audio controls>
+											<source src="assets/sounds/Other-Life.mp3" type="audio/mpeg">Other Life -
+											Emil Bacic
+										</audio>
+										<h6><strong>Other Life</strong></h6>
+										<h6><strong>Composer</strong>: Emil Bacic</h6>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 
-<!---------------------Footer-------------->
-    <footer>
-      <div class="footer-icons">
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;
-        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp;
-        <a href="https://soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a>&nbsp;
-        <a href="contact.html"><i class="fas fa-envelope"></i></a>
-            <div class="backtotop">
-                <a href="#" id="back">Back to top</a>
-            </div>
-      </div>
-    </footer>
+				<div class="w-100 pb-5"></div>
+
+				<div class="col-md-8">
+					<h5>Music Without Borders</h5>
+					<p>Worldwide music colaboration</p>
+				</div>
+				<div class="col-md-4" id="world-img" data-toggle="collapse" data-target="#navbarToggleplayer4"
+					aria-controls="navbarToggleplayer4" aria-expanded="false" aria-label="Toggle player">
+					<div class="wrap-img" id="pic4">
+						<a href="#world-img"><img src="assets/images/world-music.jpg"></a>
+							<a href="#world-img" class="img-text">Click for sound</a>
+					</div>
+					<div class="pos-f-t">
+						<div class="collapse" id="navbarToggleplayer4">
+							<div id="dropdown" class="p-3">
+								<ul class="nav flex-column">
+									<li class="nav-item">
+										<iframe width="300" height="250" src="https://www.youtube.com/embed/4xjPODksI08"
+											frameborder="0"
+											allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+											allowfullscreen></iframe>
+										<h6><strong>One Love</strong></h6>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<h2>TESTIMONIALS &nbsp; <i class="fas fa-folder-open"></i></h2>
+
+			<div class="row align-items-center pb-5" id="carousel">
+				<div class="col">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="carousel-caption">
+									<h4>John D.</h4>
+									<p>"The work delivered was beyond of what I expected"</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="carousel-caption">
+									<h4>Eleanor R.</h4>
+									<p>"Such a smooth and enjoyable colaboration"</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="carousel-caption">
+									<h4>Suzy Q.</h4>
+									<p>"If only I've been introduced to this site earlier"</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="carousel-caption">
+									<h4>Billy S.</h4>
+									<p>"Music for my game was deadly! :) "</p>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!---------------------Footer-------------->
+	<footer>
+		<div class="footer-icons">
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;
+			<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp;
+			<a href="https://soundcloud.com/" target="_blank"><i class="fab fa-soundcloud"></i></a>&nbsp;
+			<a href="contact.html"><i class="fas fa-envelope"></i></a>
+			<div class="backtotop">
+				<a href="#" id="back">Back to top</a>
+			</div>
+		</div>
+	</footer>
 
 </body>
+
 </html>

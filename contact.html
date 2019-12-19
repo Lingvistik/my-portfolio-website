@@ -24,6 +24,7 @@
 
     <!----------------Navbar--------------------->
      <nav class="navbar navbar-dark">
+     <span class="logo"><a href="index.html"><strong>emw</strong><span class="logo-sub">production</span></a></span>
          <button class="navbar-toggler" id="button-style" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
          </button>
@@ -31,19 +32,19 @@
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
             <div id="dropdown" class="p-3">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="work.html">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                <ul class="nav flex-column dropdown-links">
+                     <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home &nbsp; <i class="fas fa-home fa-xs"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me &nbsp; <i class="fas fa-user fa-xs"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="work.html">Work &nbsp; <i class="fas fa-suitcase fa-xs"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact &nbsp; <i class="fas fa-envelope fa-xs"></i></a>
+                        </li>
                </ul>
             </div>
        </div>
@@ -51,35 +52,37 @@
     
     <!---------------------Main Content-------------->
     <section id="contact">
-       <div class="container">
-         <div class="jumbotron bg-transparent"> 
-            <form>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">What do you need the music for?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Video Game</option>
-                    <option>Movie Trailer</option>
-                    <option>Radio Jingle</option>
-                    <option>Jingle For A TV Commercial</option>
-                    <option>Personal Project</option>
-                    <option>Don't Know Yet :)</option>
-                    </select>
-                    <div id="uploadtxt" class="form-group">
-                        <label  for="exampleFormControlFile1">Already have something you want to work on? Upload it here.</label>
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message me</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="button" class="btn btn-danger">Submit</button>
-            </form>
-        </div> 
+       <div class="container d-flex justify-content-md-center p-5" id="contact-form">
+         <div class="row">
+            <div class="col">
+			<form>
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email address</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+			    </div>
+					<div class="form-group">
+						<label for="exampleFormControlSelect1">What do you need the music for?</label>
+						<select class="form-control" id="exampleFormControlSelect1" required>
+			                    <option>Video Game</option>
+			                    <option>Movie Trailer</option>
+			                    <option>Radio Jingle</option>
+			                    <option>Jingle For A TV Commercial</option>
+			                    <option>Personal Project</option>
+			                    <option>Don't Know Yet :)</option>
+			                    </select>
+                            <div id="uploadtxt" class="form-group">
+                                <label  for="exampleFormControlFile1">Already have something you want to work on? Upload it here.</label>
+                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                            </div>
+					</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Message me</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+						</div>
+						<button type="submit" class="btn btn-danger">Submit</button>
+			</form>
+            </div>
+        </div>
     </div>
     </section>
 
