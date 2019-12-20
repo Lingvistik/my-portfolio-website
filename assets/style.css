@@ -245,6 +245,7 @@ footer a:visited {
 #contact-form {
     background-color: rgba(126, 126, 126, 0.253);
     border-radius: 10px;
+    border: 1px solid #dfdfdf;
 }
 
 #uploadtxt {
