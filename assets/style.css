@@ -36,6 +36,13 @@ h4
 
 #dropdown {
     background-color: rgba(109, 109, 109, 0.363);
+    border-radius: 10px;
+}
+
+#dropdown-player {
+    background-color: rgba(109, 109, 109, 0.363);
+    border-radius: 10px;
+    width: 400px;
 }
 
 .dropdown-links {
