@@ -111,6 +111,8 @@ https://miketricking.github.io/bootstrap-image-hover/
 https://codepen.io/Washable/pen/Oxqjbq?editors=1100
 •	text over image, adjustments to the code have been made, used for the images on the Work section
 https://www.w3schools.com/howto/howto_css_image_text.asp
+Nikola Tesla quote:
+•   https://www.goalcast.com/2017/12/20/25-nikola-tesla-quotes/
 
 Media
 •	Cover image is an original art by my wife Ardena Vuckovic-Bacic
