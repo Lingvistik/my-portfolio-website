@@ -1,6 +1,7 @@
 Emil’s Music Workshop
 
 This is an imaginary website which was designed to provide music production services (original compositions, music backgrounds, sound FX) for various types of client’s needs. 
+
 UX
 
 This website was designed around the real idea of music production provided by myself which was based on my existing work, some of what can be heard in the portfolio section of the website.
