@@ -56,6 +56,15 @@ Text carousel has also been adjusted for the mobile view via media query where t
 
 TESTING the Features
 
+Navbar feature
+    Desktop view
+1.	Click on the Navbar button and verify that that dropdown menu appears overlaying the page content
+2.	Hover on the dropdown items and verify that it changes background color
+3.	Cick on the dropdown items and verify that it changes the font color
+    Mobile view
+1.	Click on the Navbar button and verify that that dropdown menu appears pushing the page content down
+2.	Cick on the dropdown items and verify that it changes the background and font color
+
 Home page main contact feature:
 1.	Go to the “Home” page via navbar or clicking on the logo positioned left on the site
 2.	Hover on the main image and verify that text appears 
