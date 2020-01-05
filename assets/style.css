@@ -19,6 +19,7 @@ h4
 
 /*Navbar----------------Navbar--------------------Navbar*/
 
+/***Navbar credits: https://getbootstrap.com/docs/4.4/components/navbar/***/
 .navbar {
     height: 100%;
 }
@@ -71,11 +72,11 @@ h4
     font-size: 15px;
 }
 
+/***suggestion for the overlaying effect for the dropdown navbar menu gotten from a friend who is a web developer (Ivan Jandric)****/
 .collapse-overlay {
     position: absolute;
     right: 0;
-    z-index: 5;
-    
+    z-index: 5;   
 }
 
 /*Content----------------Content--------------------Content*/
@@ -216,6 +217,10 @@ footer a:visited {
      position: relative;
 }
 
+/***text over image
+Credits:
+https://www.w3schools.com/howto/howto_css_image_text.asp**/
+
 .img-text {
     width: 100%;
     position: absolute;
@@ -307,6 +312,10 @@ footer a:visited {
 text-align: center;
 
 }
+
+/***Hover effect
+Credits:
+https://miketricking.github.io/bootstrap-image-hover/**/
 
 .hovereffect {
   display: inline-block;
@@ -411,7 +420,9 @@ text-align: center;
     background-color: rgba(65, 65, 65, 0.568);
 }
 
-/*Carousel----------------Carousel--------------------Carousel*/
+/*Carousel----------------Carousel--------------------Carousel
+    credits: https://codepen.io/Washable/pen/Oxqjbq?editors=1100
+*/
 
 
 #carousel {
