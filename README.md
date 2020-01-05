@@ -22,6 +22,7 @@ The offer is consisted of producing music from scratch or collaborating on an ex
 Features
 
 Existing Features
+
 •	Feature Home Page - allows website users and potential clients to quickly access the contact section, by clicking “Let’s Work Together!” button.
 •	Feature Work – allows users to listen to the musical examples which would give users image of what they can expect, by clicking on the images which then opens the audio/video players.
 •	Feature Testimonials carousel – shows users stories on an automated sequence and can be controlled by clicking on left/right arrow.
@@ -30,7 +31,8 @@ Existing Features
 There are several features that would be implemented over the period of time and as will project get bigger more of the features will be introduced subsequently. 
 
 Features Left to Implement
-•	An automated mastering tool that can be used unlimitedly allowing users to upload their existing audio files which would then be processed by built-in software after which would user download finished copies that fits to standards of the music industry
+
+•	An automated mastering tool that can be used unlimitedly allowing users to upload their existing audio files which would then be processed by built-in software after which would user download finished copies that fit the standards of the music industry
 •	A forum page which would serve as user community place where users would share their experiences and stories, discussing the potential collaborations, etc.
 
 
