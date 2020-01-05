@@ -92,8 +92,10 @@ Contact form:
 
 Deployment
 
-All the code has been written on GitPod Workspace and was saved (committed) on my GitHub repository. 
+All the code has been written on GitPod Workspace and was saved (committed) on my GitHub repository - https://github.com/Lingvistik/my-portfolio-website
 As the website was building, different versions have been committed to the GitHub repository in order to prevent any potential work loss.
+
+Live version of the website is available on GitHup pages at - https://lingvistik.github.io/my-portfolio-website/
 
 
 Credits
