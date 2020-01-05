@@ -61,6 +61,7 @@ Navbar feature
 1.	Click on the Navbar button and verify that that dropdown menu appears overlaying the page content
 2.	Hover on the dropdown items and verify that it changes background color
 3.	Cick on the dropdown items and verify that it changes the font color
+
     Mobile view
 1.	Click on the Navbar button and verify that that dropdown menu appears pushing the page content down
 2.	Cick on the dropdown items and verify that it changes the background and font color
