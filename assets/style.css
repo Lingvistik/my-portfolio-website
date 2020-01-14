@@ -2,7 +2,7 @@ body {
     font-family: "Comfortaa", sans-serif;
     font-size: 35px;
     color: #e7e0e0;
-    background: url("images/coverpic1.jpg") no-repeat center center fixed;
+    background: url("images/coverpic3.jpg") no-repeat center center fixed;
     background-size: cover;
 
 }
@@ -16,6 +16,9 @@ h4
     margin-bottom: 40px;
 }
 
+h1 {
+    font-size: 50px;
+}
 
 /*Navbar----------------Navbar--------------------Navbar*/
 
@@ -107,6 +110,7 @@ h4
 .jumbotron {
     background-color: rgba(117, 113, 113, 0.5);
     font-size: 25px;
+    height: 200px;
 }
 
 .jumbotron p {
@@ -121,6 +125,11 @@ h4
 .card-body a {
     font-size: 20px;
     color: #dfdfdf;
+}
+
+#aobut-section {
+    border-top: 1px solid #dfdfdf;
+    padding-top: 15px;
 }
 
 #aboutme {
