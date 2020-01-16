@@ -1,8 +1,8 @@
-Emil’s Music Workshop
+# Emil’s Music Workshop
 
 This is an imaginary website which was designed to provide music production services (original compositions, music backgrounds, sound FX) for various types of client’s needs. 
 
-UX
+## UX
 
 This website was designed around the real idea of music production provided by myself which was based on my existing work, some of what can be heard in the portfolio section of the website.
 The idea was to keep it as simple as possible and intuitive enough, in terms of navigating through the website and learning about the features.
@@ -19,9 +19,9 @@ The offer is consisted of producing music from scratch or collaborating on an ex
 
 •	As a theatre director I’m looking for high quality sound effects which I will use for my next play. – user example 5
 
-Features
+## Features
 
-Existing Features
+### Existing Features
 
 •	Feature Home Page - allows website users and potential clients to quickly access the contact section, by clicking “Let’s Work Together!” button.
 •	Feature Work – allows users to listen to the musical examples which would give users image of what they can expect, by clicking on the images which then opens the audio/video players.
@@ -36,27 +36,27 @@ Features Left to Implement
 •	A forum page which would serve as user community place where users would share their experiences and stories, discussing the potential collaborations, etc.
 
 
-Technologies Used
+## Technologies Used
 
 This website was built around the layout provided by the Bootstrap libraries which were used for the basic grid setup that served as a skeleton for the interface design.
 Languages used for the website were HTML and CSS.
 The Carousel plugin was taken from the Bootstrap library of components and modified to fit the desired effect. 
 
-Libraries used for the project
+## Libraries used for the project
 •	Bootstrap
 •	Font Awesome
 •	Google Fonts
 
-Testing
+## Testing
 
 As the website was built with the mobile first approach in mind I would always view any new feature on the mobile device view first using the Chrome’s inspect utility. 
 If appearance of any particular page on the site wasn’t optimized for the mobile devices browsing, I would use media queries outside of what was already built in the Bootstrap’s library.
 For instance on mobile view I’ve hidden part of the text that appears when hovered or clicked on the Home page image. I have also changed how dropdown menu behaves on mobile view where it pushes the content of the page below the dropdown menu, while on the desktop view dropdown menu overlays the content.
 Text carousel has also been adjusted for the mobile view via media query where the font size has been reduced to fit the smaller screen devices.
 
-TESTING the Features
+## TESTING the Features
 
-Navbar feature
+### Navbar feature
     Desktop view
 1.	Click on the Navbar button and verify that that dropdown menu appears overlaying the page content
 2.	Hover on the dropdown items and verify that it changes background color
@@ -90,7 +90,7 @@ Contact form:
 5.	Try to submit the form with an invalid email address and verify that a relevant error message appears
 
 
-Deployment
+## Deployment
 
 All the code has been written on GitPod Workspace and was saved (committed) on my GitHub repository - https://github.com/Lingvistik/my-portfolio-website
 As the website was building, different versions have been committed to the GitHub repository in order to prevent any potential work loss.
@@ -98,9 +98,9 @@ As the website was building, different versions have been committed to the GitHu
 Live version of the website is available on GitHup pages at - https://lingvistik.github.io/my-portfolio-website/
 
 
-Credits
+## Credits
 
-Content
+## Content
 •	For a simple mp3 player used in the Work section
 https://www.youtube.com/watch?v=M2qehZrWVfc
 •	Div positioning
@@ -114,7 +114,7 @@ https://www.w3schools.com/howto/howto_css_image_text.asp
 Nikola Tesla quote:
 •   https://www.goalcast.com/2017/12/20/25-nikola-tesla-quotes/
 
-Media
+## Media
 •	Cover image is an original art by my wife Ardena Vuckovic-Bacic
 •	Electronic music img
 https://www.piqsels.com/en/public-domain-photo-fvbek
