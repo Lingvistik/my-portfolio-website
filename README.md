@@ -59,7 +59,7 @@ Text carousel has also been adjusted for the mobile view via media query where t
 ### Navbar feature
     Desktop view
 1.	Click on the Navbar button and verify that that dropdown menu appears overlaying the page content
-2.	Hover on the dropdown items and verify that it changes background color
+2.	Hover over the dropdown items and verify that it changes background color
 3.	Cick on the dropdown items and verify that it changes the font color
 
     Mobile view
@@ -68,13 +68,19 @@ Text carousel has also been adjusted for the mobile view via media query where t
 
 Home page main contact feature:
 1.	Go to the “Home” page via navbar or clicking on the logo positioned left on the site
-2.	Hover on the main image and verify that text appears 
-3.	Hover on the “Let’s Work Together!” button and verify that it changes background and font color
+2.	Hover over the left image and verify that text appears 
+3.	Hover over the “Let’s Work Together!” button and verify that it changes background and font color
 4.	Click on “Let’s Work Together!” button and verify that it leads to the Contact page
+
+Home page samples feature:
+1.	Go to the “Home” page via navbar or clicking on the logo positioned left on the site
+2.	Hover over the right image and verify that text appears 
+3.	Hover over the “Samples” button and verify that it changes background color
+4.	Click on “Samples” button and verify that it leads to the Work page
 
 Work section - portfolio:
 1.	Go to the "Work" page via navbar
-2.	Hover on the images and verify that text on the images changes font color
+2.	Hover over the images and verify that text on the images changes font color
 3.	Click on images and verify that they open appropriate player
 4.	Click on play and verify that it reproduces audio/video files
 
