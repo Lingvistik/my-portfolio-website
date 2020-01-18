@@ -22,9 +22,9 @@ h4
     margin-bottom: 40px;
 }
 
-/*Navbar----------------Navbar--------------------Navbar*/
+/* Navbar----------------Navbar--------------------Navbar */
 
-/***Navbar credits: https://getbootstrap.com/docs/4.4/components/navbar/***/
+/*** Navbar credits: https://getbootstrap.com/docs/4.4/components/navbar/ ***/
 .navbar {
     height: 100%;
 }
@@ -70,21 +70,22 @@ h4
 }
 
 .logo a:hover  {
-     text-decoration: none;
+    text-decoration: none;
 }
 
 .logo-sub {
     font-size: 15px;
 }
 
-/***suggestion for the overlaying effect for the dropdown navbar menu gotten from a friend who is a web developer (Ivan Jandric)****/
+/*** suggestion for the overlaying effect for the dropdown navbar menu 
+gotten from a friend who is a web developer (Ivan Jandric) ****/
 .collapse-overlay {
     position: absolute;
     right: 0;
     z-index: 5;   
 }
 
-/*Content----------------Content--------------------Content*/
+/* Content----------------Content--------------------Content */
 
 .subtitle {
     display: inline-block;
@@ -93,16 +94,15 @@ h4
 }
 
 #content h4 {
-    background-color: rgba(119, 115, 115, 0.37);
+    background-color: rgba(119, 115, 115, 0.158);
     border-radius: 10px;
 }
 
 #work h2 {
-     text-align: center;
-      margin-top: 30px;
-      margin-bottom: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
-
 
 #about-content {
     font-family: "Comfortaa", sans-serif;
@@ -123,11 +123,7 @@ h4
     font-size: 20px;
 }
 
-.card-body p,
-.card-body a {
-    font-size: 20px;
-    color: #dfdfdf;
-}
+
 
 #aobut-section {
     border-top: 1px solid #dfdfdf;
@@ -167,7 +163,7 @@ h4
 }
 
 #music-examples p {
-    background-color: rgba(119, 115, 115, 0.5);
+    background-color: rgba(119, 115, 115, 0.158);
     border-radius: 10px;
 }
 
@@ -177,7 +173,7 @@ h4
 }
 
 
-/*Footer----------------Footer--------------------Footer*/
+/* Footer----------------Footer--------------------Footer */
 
 footer {
     text-align: center;
@@ -210,10 +206,10 @@ footer a:visited {
 
 
 
-/*Images----------------Images--------------------Images*/
+/* Images----------------Images--------------------Images */
 
 #cover-pic img {
-   border-radius: 50%;
+    border-radius: 50%;
     width: 300px;
     height: 300px;
 }
@@ -228,9 +224,9 @@ footer a:visited {
      position: relative;
 }
 
-/***text over image
+/*** text over image
 Credits:
-https://www.w3schools.com/howto/howto_css_image_text.asp**/
+https://www.w3schools.com/howto/howto_css_image_text.asp **/
 
 .img-text {
     width: 100%;
@@ -285,14 +281,11 @@ https://www.w3schools.com/howto/howto_css_image_text.asp**/
     height: 150px;
 }
 
-.card img {
-    border: 5px solid #dfdfdf;
-}
 
-/*Contact Page----------------Contact Page--------------------Contact Page*/
+/* Contact Page----------------Contact Page--------------------Contact Page */
 
 #contact-form {
-    background-color: rgba(126, 126, 126, 0.253);
+    background-color: rgba(126, 126, 126, 0.158);
     border-radius: 10px;
     border: 1px solid #dfdfdf;
 }
@@ -317,17 +310,16 @@ https://www.w3schools.com/howto/howto_css_image_text.asp**/
     margin-top: 2em;
 }
 
-/*Home Page----------------Home Page--------------------Home Page*/
+/* Home Page----------------Home Page--------------------Home Page */
 
 #cover-page {
 text-align: center;
-
 }
 
 
-/***Hover effect
+/*** Hover effect
 Credits:
-https://miketricking.github.io/bootstrap-image-hover/**/
+https://miketricking.github.io/bootstrap-image-hover/ **/
 
 .hovereffect {
   display: inline-block;
@@ -349,7 +341,7 @@ https://miketricking.github.io/bootstrap-image-hover/**/
   position: absolute;
   overflow: hidden;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.466);
+  background-color: rgba(255, 255, 255, 0.404);
   top: -200px;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -370,7 +362,6 @@ https://miketricking.github.io/bootstrap-image-hover/**/
   position: relative;
   width: 100%;
   height: 100%;
-  
 }
 
 .hovereffect p,
@@ -405,11 +396,11 @@ https://miketricking.github.io/bootstrap-image-hover/**/
   padding: 7px 14px;
   text-transform: uppercase;
   margin: 50px 0 0 0;
-  background-color: transparent;
+  background-color: #4e211ef5;
   -webkit-transform: translateY(-100px);
   -ms-transform: translateY(-100px);
   transform: translateY(-100px);
-  color: #000;
+  color: rgb(255, 252, 252);
   border: 1px solid #000;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
@@ -417,6 +408,7 @@ https://miketricking.github.io/bootstrap-image-hover/**/
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
+  color: #000;
 }
 
 .hovereffect:hover a.info {
@@ -434,85 +426,88 @@ https://miketricking.github.io/bootstrap-image-hover/**/
     background-color: rgba(65, 65, 65, 0.568);
 }
 
-/*second hovereffect*/
+/* second hovereffect 
+Credits:
+https://miketricking.github.io/bootstrap-image-hover */
 
 .hovereffect0 {
-display: inline-block;
-text-align:center;
-width:100%;
-height:100%;
-overflow:hidden;
-position:relative;
-cursor:default;
-border: 2px solid #dfdfdf;
-border-radius: 7%;
-height: 400px;
-width: 500px;
+    display: inline-block;
+    text-align:center;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position:relative;
+    cursor:default;
+    border: 2px solid #dfdfdf;
+    border-radius: 7%;
+    height: 400px;
+    width: 500px;
 }
 
 .hovereffect0 .overlay {
-width:100%;
-height:100%;
-position:absolute;
-overflow:hidden;
-top:0;
-left:0;
-opacity:0;
-background-color:rgba(0,0,0,0.5);
--webkit-transition:all .4s ease-in-out;
-transition:all .4s ease-in-out
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out
 }
 
 .hovereffect0 img {
-display:block;
-position:relative;
--webkit-transition:all .4s linear;
-transition:all .4s linear;
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
 }
 
 
 .hovereffect0 a.info {
-text-decoration:none;
-display:inline-block;
-text-transform:uppercase;
-color:#fff;
-border:1px solid #fff;
-background-color:transparent;
-opacity:0;
-filter:alpha(opacity=0);
--webkit-transition:all .2s ease-in-out;
-transition:all .2s ease-in-out;
-text-align: center;
-margin-top: 150px;
+    text-decoration:none;
+    display:inline-block;
+    text-transform:uppercase;
+    color:#fff;
+    border:1px solid #fff;
+    background-color:transparent;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    text-align: center;
+    margin-top: 160px;
 
 }
 
 .hovereffect0 a.info:hover {
-box-shadow:0 0 5px #fff;
+    box-shadow:0 0 5px #fff;
+    background-color: #4e211ef5;
 }
 
 .hovereffect0:hover img {
--ms-transform:scale(1.2);
--webkit-transform:scale(1.2);
-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
 }
 
 .hovereffect0:hover .overlay {
-opacity:1;
-filter:alpha(opacity=100);
+    opacity:1;
+    filter:alpha(opacity=100);
 }
 
 .hovereffect0:hover h2,.hovereffect0:hover a.info {
-opacity:1;
-filter:alpha(opacity=100);
--ms-transform:translatey(0);
--webkit-transform:translatey(0);
-transform:translatey(0);
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translatey(0);
+    -webkit-transform:translatey(0);
+    transform:translatey(0);
 }
 
 .hovereffect0:hover a.info {
--webkit-transition-delay:.2s;
-transition-delay:.2s;
+    -webkit-transition-delay:.2s;
+    transition-delay:.2s;
 }
 
 
@@ -529,16 +524,16 @@ transition-delay:.2s;
 .carousel{
   margin-top: 50px;
 }
+
 .carousel-inner{
   height: 300px;
   background-color: rgba(117, 113, 113, 0.158);
   border-radius: 20px;
-  
 }
+
 .carousel-caption{
   color: #dfdfdf;
   top: 50%;
-  
 }
 
 /*Media Queries----------------Media Queries--------------------Media Queries*/
@@ -560,22 +555,46 @@ transition-delay:.2s;
 }
 
 .hovereffect {
+  margin: 0 !important;
   text-align: center;
   border: 2px solid #dfdfdf;
   border-radius: 7%;
   height: 250px;
   width: 300px;
-  
 }
 
 .hovereffect0 {
-text-align: center;
-margin-bottom: 15px;
-border: 2px solid #dfdfdf;
-border-radius: 7%;
-height: 250px;
-width: 300px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 2px solid #dfdfdf;
+    border-radius: 7%;
+    height: 250px;
+    width: 300px;
+}
 
+.hovereffect0 a.info {
+    text-decoration:none;
+    display:inline-block;
+    text-transform:uppercase;
+    color:#fff;
+    border:1px solid #fff;
+    background-color:transparent;
+    opacity:0;
+    filter:alpha(opacity=0);
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    text-align: center;
+    margin-top: 90px;
+
+}
+@media only screen and (max-width: 400px) {
+
+.subtitle {
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 0 10px;
+    padding: 5px;
 }
 
 }
