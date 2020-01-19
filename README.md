@@ -122,14 +122,19 @@ I didn't need to do anything in order to make my website live, as it was already
 ## Content
 •	For a simple mp3 player used in the Work section
 https://www.youtube.com/watch?v=M2qehZrWVfc
+
 •	Div positioning
 https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/
+
 •	Hover effect used on the Home page, adjustments to the code have been made in order to create desired effect.
 https://miketricking.github.io/bootstrap-image-hover/
+
 •	carousel text, adjustments to the code have been made, media query set for the mobile phone devices
 https://codepen.io/Washable/pen/Oxqjbq?editors=1100
+
 •	text over image, adjustments to the code have been made, used for the images on the Work section
 https://www.w3schools.com/howto/howto_css_image_text.asp
+
 Nikola Tesla quote:
 •   https://www.goalcast.com/2017/12/20/25-nikola-tesla-quotes/
 
