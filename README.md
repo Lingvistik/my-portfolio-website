@@ -109,9 +109,12 @@ Contact form:
 ## Deployment
 
 All the code has been written on GitPod Workspace and was saved (committed) on my GitHub repository - https://github.com/Lingvistik/my-portfolio-website
-As the website was building, different versions have been committed to the GitHub repository in order to prevent any potential work loss.
+
+***NOTE for assessors***  
+As the website was building, different versions have been committed to the GitHub repository in order to prevent any potential work loss. Unfortunately, I wasn't describing each commit in the message as I didn't consider that as a necessity. During my last call with my mentor that was pointed out to me and I was told that I should have been noting the change in the git commit message. Instead, I was simply putting numbers for different versions, basically commit was just additional way of saving my work and progress. Every commit after the consultation has been documented in the required manner.
 
 Live version of the website is available on GitHup pages at - https://lingvistik.github.io/my-portfolio-website/
+I didn't need to do anything in order to make my website live, as it was already live. I simply went to the "Settings" on my GitHub and scrolled down to the GitHub Pages section where the link for my website was. 
 
 
 ## Credits
