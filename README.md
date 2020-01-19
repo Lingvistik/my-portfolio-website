@@ -5,7 +5,7 @@ This is an imaginary website which was designed to provide music production serv
 ## UX
 
 This website was designed around the real idea of music production provided by myself which was based on my existing work, some of what can be heard in the portfolio section of the website.
-The idea was to keep it as simple as possible and intuitive enough, in terms of navigating through the website and learning about the features.
+The idea was to keep it as simple as possible and intuitive enough, in terms of navigating through the website and learning about the features. For example I wanted to keep the Home Page as simple as possible where only two pictures will be shown, both of them with the hover effect which will enable user to go to the content that I find most important in the entire website and that content is - contact page and sample work.
 Targeted audience for the website would be both businesses and private individuals, meaning the final products would for be for commercial or non-commercial use.
 The offer is consisted of producing music from scratch or collaborating on an existing project or ideas as the name of the site is immediately suggesting so that anyone who needs music for their projects would get an idea of what to expect just by browsing through the website.
 
