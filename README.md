@@ -135,14 +135,19 @@ Nikola Tesla quote:
 
 ## Media
 •	Cover image is an original art by my wife Ardena Vuckovic-Bacic
+
 •	Electronic music img
 https://www.piqsels.com/en/public-domain-photo-fvbek
+
 •	Recording img
 https://www.pxfuel.com/en/free-photo-oecaa
+
 •	World music img
 https://www.flickr.com/photos/87251943@N05/7991501908
+
 •	video games music img
 https://www.flickr.com/photos/shardsofblue/5609066215/sizes/m/
+
 •	Home page img
 https://www.piqsels.com/en/public-domain-photo-svaqy
 
